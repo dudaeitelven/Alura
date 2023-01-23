@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MovieAPI.Controllers.MovieController.AddMovie(MovieAPI.Data.DTOs.CreateMovieDTO)">
+            <summary>
+            Add a movie into the database
+            </summary>
+            <param name="movieDto"> Object required to create a movie</param>
+            <returns>IActionResult</returns>
+            <response code="201">Success in creating the movie </response>
+        </member>
+        <member name="T:MovieAPI.Migrations.CreateMoviesTable">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.CreateMoviesTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.CreateMoviesTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MovieAPI.Migrations.CreateMoviesTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
